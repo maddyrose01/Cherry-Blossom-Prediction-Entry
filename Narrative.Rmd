@@ -1,0 +1,19 @@
+---
+title: "Narrative"
+author: Madeline Morman
+date: "2/28/2025"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Cherry blossoms are not only a breathtaking natural phenomenon but also serve as a critical biological indicator of climate patterns and environmental change. The goal of this project is to build a prediction model that will accurately predict when the beautiful cherry blossoms will bloom around the world at 5 sites in the year 2025. Numerous predictors, including location, year, and weather, are included in the dataset used in my prediction model. The average weather data was split into chilling and warming periods in each location because these periods are crucial in the development of the flower and when it will bloom. These bloom dates are essential for agricultural planning and comprehending how climate change affects seasonal cycles, thus we are working to create a reliable model that can predict them.
+
+To accomplish this goal I used a lasso regression method which is a regularized linear regression technique used to handle high-dimensional data and avoid over fitting. This model used the data from 1973 to 2023 to train on and then was tested using the data from beyond 2023 and then evaluated using 5-fold cross-validation. This project is one of many examples in how statistical modeling can be applied to to further our understanding and predictive capabilities of the timing of certain seasonal events. While this model was created to predict cherry blossoms, similar ones can be made that could help offer insights into the future effects of climate change.
+
+
+
+
